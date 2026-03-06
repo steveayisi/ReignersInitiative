@@ -16,8 +16,8 @@ This project is already configured for Netlify via [netlify.toml](netlify.toml).
 2. In Netlify, click **Add new site** → **Import an existing project**.
 3. Select your GitHub repository.
 4. Deploy (Netlify will use:
-	- Build command: `npm run build`
-	- Publish directory: `dist`
-	- Node version: `22.12.0`)
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+   - Node version: `22.12.0`)
 
 After deploy, Netlify will give you a live URL.

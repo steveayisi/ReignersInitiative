@@ -40,8 +40,24 @@
   border-radius: 50%;
 }
 
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
 .logo-text {
   color: white;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.logo-tagline {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+  font-style: italic;
 }
 
 .nav {

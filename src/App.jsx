@@ -9,7 +9,7 @@ import photo5 from "./assets/5.jpeg";
 import video3 from "./assets/3.mp4";
 
 function App() {
-   const [selectedIndex, setSelectedIndex] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(null);
 
   const mediaItems = [
     { type: "image", src: logo, alt: "Reigner Initiative Logo" },
@@ -48,7 +48,12 @@ function App() {
               alt="Reigner Initiative Logo"
               className="logo-img"
             />
-            <span className="logo-text">Reigner Initiative</span>
+            <div className="logo-content">
+              <span className="logo-text">
+                Reigners Initiative for the Needy
+              </span>
+              {/* <span className="logo-tagline">For the Needy</span> */}
+            </div>
           </div>
           <nav className="nav">
             <a href="#home">Home</a>
